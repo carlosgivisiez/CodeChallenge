@@ -1,0 +1,30 @@
+@import "../assets/styles/dimensions";
+
+.room {
+    width: 935px;
+    height: 100vh;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+
+    .messages {
+        padding: $spacing-2x;
+        flex: 1;
+        overflow: auto;
+    }
+
+    .message-sending {
+        display: flex;
+        margin-bottom: $spacing-6x;
+        
+        input {
+            flex: 1;
+        }
+
+        button {
+            width: 150px;
+            height: 40px;
+            cursor: pointer;
+        }
+    }
+}

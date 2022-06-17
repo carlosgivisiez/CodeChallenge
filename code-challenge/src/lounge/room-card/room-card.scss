@@ -1,0 +1,15 @@
+@import "../../assets/styles/dimensions";
+
+.room-card {
+    background-color: #242F9B;
+    width: 180px;
+    height: 180px;
+    color: #e8e8e8;
+    border-radius: $spacing-2x;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+}

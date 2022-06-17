@@ -1,0 +1,25 @@
+﻿{
+  "IdentityData": {
+    "Roles": [
+      {
+        "Name": "MyRole"
+      }
+    ],
+    "Users": [
+      {
+        "Username": "admin",
+        "Password": "Pa829word123",
+        "Email": "givisiez.carlos@protonmail.com",
+        "Roles": [
+          "MyRole"
+        ],
+        "Claims": [
+          {
+            "Type": "name",
+            "Value": "admin"
+          }
+        ]
+      }
+    ]
+  }
+}

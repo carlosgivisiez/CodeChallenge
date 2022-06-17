@@ -1,0 +1,7 @@
+@import "../../assets/styles/dimensions";
+
+.create-room {
+    display: flex;
+    flex-direction: column;
+    gap: $spacing-4x
+}

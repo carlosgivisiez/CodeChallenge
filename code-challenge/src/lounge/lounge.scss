@@ -1,0 +1,38 @@
+@import "../assets/styles/dimensions";
+
+.lounge {
+    padding: $spacing-8x;
+    display: flex;
+    justify-content: center;
+
+    .all-rooms {
+        max-width: 935px;
+        width: auto;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        gap: $spacing-4x;
+        flex-wrap: wrap;
+
+        .add-room {
+            width: 180px;
+            height: 180px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            cursor: pointer;
+            border-radius: $spacing-2x;
+            color: #242F9B;
+            font-weight: bold;
+
+            &:hover {
+                background-color: rgba(0, 0, 0, 0.1);
+
+                svg {
+                    transform: scale(1.2);
+                }
+            }
+        }
+    }
+}
