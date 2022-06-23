@@ -39,6 +39,12 @@ Open you favorite command line tool and follow the step-by-step below
 1. Open The **CodeChallenge.sln**
 2. Start the solution
 
+## Using chatrooms
+
+There are two previous seeded users for local development and testing.
+* **Username**: admin **Password**: Pa$$word123
+* **Username**: admin2 **Password**: Pa$$word123
+
 ## Considerations
 ### Enhancements
 
