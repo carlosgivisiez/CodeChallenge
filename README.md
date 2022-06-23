@@ -10,13 +10,13 @@ Everything you will need in order to run the projects. Get everything ready befo
 ## Preparing
 ### Redis
 
-Open you favorite command line tool and follow the step-by-step below
+Open your favorite command line tool and follow the steps below
 1. `docker pull redis/redis-stack`
 2. `docker run -d --name redis -p 6379:6379 redis/redis-stack:latest`
 
 ### React
 
-1. Open you favorite command line tool in the directory **src/code-challenge** relative to the repository root
+1. Open your favorite command line tool in the directory **src/code-challenge** relative to the repository root
 2. Run `yarn install`
 
 ### Visual Studio solution
@@ -31,7 +31,7 @@ Open you favorite command line tool and follow the step-by-step below
 ## Running
 ### Frontend
 
-1. Open you favorite command line tool in the directory **src/code-challenge** relative to the repository root
+1. Open your favorite command line tool in the directory **src/code-challenge** relative to the repository root
 2. Run `yarn start`
 
 ### Backend
