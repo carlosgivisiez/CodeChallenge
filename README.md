@@ -2,7 +2,7 @@
 ## Tools needed
 
 Everything you will need in order to run the projects. Get everything ready before following the next steps.
-* [Visual Studio]([https://](https://visualstudio.microsoft.com/downloads/))
+* [Visual Studio](https://visualstudio.microsoft.com/downloads/)
 * [Docker](https://www.docker.com/products/docker-desktop/)
 * [Node](https://nodejs.org/en/download/)
 * [Yarn](https://classic.yarnpkg.com/lang/en/docs/install/#windows-stable)
