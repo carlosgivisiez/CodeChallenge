@@ -51,6 +51,7 @@ There are two previous seeded users for local development and testing.
 * Use Docker Compose to setup a local development environmet
 * Make use of all the potential provided by [Skoruba.Duende.IdentityServer.Admin]([https://](https://github.com/skoruba/Duende.IdentityServer.Admin))
 * Implement chat bots, e.g **Stock bot**, as a client of the IdentityServer. This way we can provide a scalable way to have different chat bots written in different languages running in different servers.
+* Add logs
 
 ### Problems
 * The Redis Repositoy implementation has poor performance. It needs a little more time in order to implement it properly.
