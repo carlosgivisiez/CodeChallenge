@@ -41,11 +41,17 @@ Open your favorite command line tool and follow the steps below
 
 ## Using chatrooms
 
+The app was tested using Microsoft Edge. It's highly recommended to use Edge browser.
+
 There are two previous seeded users for local development and testing.
 * **Username**: admin **Password**: Pa$$word123
 * **Username**: admin2 **Password**: Pa$$word123
 
-## Considerations
+The first time you try to run the project the login will never be prompted if you try to access http://localhost:3000. You will have to go to https://localhost:44310 and accept the risks of a self signed ssl certificate.
+
+This is required only for the first run.
+
+## Implementation considerations
 ### Enhancements
 
 * Use Docker Compose to setup a local development environmet
