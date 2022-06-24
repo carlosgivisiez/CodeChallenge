@@ -35,16 +35,20 @@ export const Room = () => {
                 <div className="room">
                     <h3>Chat room: {room.name}</h3>
                     <div className="messages">
-                        {room.messages.map(m => (
-                            <p key={m.id}>{m.content}</p>
-                        ))}
+                        {room.messages
+                            .sort((prev, curr) => new Date(prev.dateTime).getTime() - new Date(curr.dateTime).getTime())
+                            .map(m => (
+                                <p key={m.id}>{m.content}</p>
+                            ))}
                     </div>
                     <Formik
                         initialValues={{
                             message: ""
                         }}
-                        onSubmit={values => {
+                        onSubmit={(values, helpers) => {
                             websocket.send("SendMessage", values.message, id);
+
+                            helpers.resetForm();
                         }}
                     >
                         <Form className="message-sending">
