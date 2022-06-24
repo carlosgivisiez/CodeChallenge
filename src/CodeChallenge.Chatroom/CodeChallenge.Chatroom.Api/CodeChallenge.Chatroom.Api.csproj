@@ -18,6 +18,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\CodeChallenge.Chatroom.Bot.StockMarket\CodeChallenge.Chatroom.Bot.StockMarket.csproj" />
     <ProjectReference Include="..\CodeChallenge.Chatroom.Infra.Data\CodeChallenge.Chatroom.Infra.Data.csproj" />
   </ItemGroup>
 

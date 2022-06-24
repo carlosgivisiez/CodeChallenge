@@ -36,7 +36,7 @@ export const Room = () => {
                     <h3>Chat room: {room.name}</h3>
                     <div className="messages">
                         {room.messages.map(m => (
-                            <p>{m.content}</p>
+                            <p key={m.id}>{m.content}</p>
                         ))}
                     </div>
                     <Formik

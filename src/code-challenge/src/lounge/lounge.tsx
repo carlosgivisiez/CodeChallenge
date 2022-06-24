@@ -30,11 +30,9 @@ export const Lounge = () => {
             <Loader promise={rooms}>
                 {rooms => rooms && (
                     <div className="all-rooms">
-                        {rooms
-                            .sort((previous, current) => current.membersCount - previous.membersCount)
-                            .map(r => (
-                                <RoomCard key={r.id} roomSummary={r} />
-                            ))}
+                        {rooms.map(r => (
+                            <RoomCard key={r.id} roomSummary={r} />
+                        ))}
                         <div 
                             className="add-room" 
                             onClick={async () => {

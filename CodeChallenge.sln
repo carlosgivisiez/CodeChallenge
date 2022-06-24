@@ -11,8 +11,6 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CodeChallenge.Chatroom.Core
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CodeChallenge.Chatroom.Infra.Data", "src\CodeChallenge.Chatroom\CodeChallenge.Chatroom.Infra.Data\CodeChallenge.Chatroom.Infra.Data.csproj", "{114D0A8C-5646-4B50-824D-FB20E19E7694}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CodeChallenge.Chatroom.Test.UseCase", "src\CodeChallenge.Chatroom\CodeChallenge.Chatroom.Test.UseCase\CodeChallenge.Chatroom.Test.UseCase.csproj", "{D84B4C5F-990B-4E18-BA89-B638E4661E49}"
-EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{FD28DE80-55C1-4C54-9944-D4E2B8B33831}"
 	ProjectSection(SolutionItems) = preProject
 		.gitignore = .gitignore
@@ -22,21 +20,23 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CodeChallenge.Chatroom.Api"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Auth", "Auth", "{243B55D0-5297-4884-927E-50DEE43575D0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CodeChallenge.Auth.Admin", "src\CodeChallenge.Auth\src\CodeChallenge.Auth.Admin\CodeChallenge.Auth.Admin.csproj", "{D0EAC1B2-06E3-4A51-BE1C-7D0E72DD7A0F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CodeChallenge.Auth.Admin", "src\CodeChallenge.Auth\src\CodeChallenge.Auth.Admin\CodeChallenge.Auth.Admin.csproj", "{D0EAC1B2-06E3-4A51-BE1C-7D0E72DD7A0F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CodeChallenge.Auth.STS.Identity", "src\CodeChallenge.Auth\src\CodeChallenge.Auth.STS.Identity\CodeChallenge.Auth.STS.Identity.csproj", "{E0723C37-D582-4ED4-AAE6-CB7820AA6D52}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CodeChallenge.Auth.STS.Identity", "src\CodeChallenge.Auth\src\CodeChallenge.Auth.STS.Identity\CodeChallenge.Auth.STS.Identity.csproj", "{E0723C37-D582-4ED4-AAE6-CB7820AA6D52}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CodeChallenge.Auth.Admin.Api", "src\CodeChallenge.Auth\src\CodeChallenge.Auth.Admin.Api\CodeChallenge.Auth.Admin.Api.csproj", "{C346A32C-6D6F-478F-A651-8A3347AB5621}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CodeChallenge.Auth.Admin.Api", "src\CodeChallenge.Auth\src\CodeChallenge.Auth.Admin.Api\CodeChallenge.Auth.Admin.Api.csproj", "{C346A32C-6D6F-478F-A651-8A3347AB5621}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CodeChallenge.Auth.Admin.EntityFramework.Shared", "src\CodeChallenge.Auth\src\CodeChallenge.Auth.Admin.EntityFramework.Shared\CodeChallenge.Auth.Admin.EntityFramework.Shared.csproj", "{EB851C28-C08A-4349-B72D-FBB22FAE1443}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CodeChallenge.Auth.Admin.EntityFramework.Shared", "src\CodeChallenge.Auth\src\CodeChallenge.Auth.Admin.EntityFramework.Shared\CodeChallenge.Auth.Admin.EntityFramework.Shared.csproj", "{EB851C28-C08A-4349-B72D-FBB22FAE1443}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CodeChallenge.Auth.Admin.EntityFramework.MySql", "src\CodeChallenge.Auth\src\CodeChallenge.Auth.Admin.EntityFramework.MySql\CodeChallenge.Auth.Admin.EntityFramework.MySql.csproj", "{03E3D155-06F5-4EA8-85F0-2650EDC6F8D9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CodeChallenge.Auth.Admin.EntityFramework.MySql", "src\CodeChallenge.Auth\src\CodeChallenge.Auth.Admin.EntityFramework.MySql\CodeChallenge.Auth.Admin.EntityFramework.MySql.csproj", "{03E3D155-06F5-4EA8-85F0-2650EDC6F8D9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CodeChallenge.Auth.Admin.EntityFramework.PostgreSQL", "src\CodeChallenge.Auth\src\CodeChallenge.Auth.Admin.EntityFramework.PostgreSQL\CodeChallenge.Auth.Admin.EntityFramework.PostgreSQL.csproj", "{A57D356D-8C19-4240-B32D-71008BDC89B4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CodeChallenge.Auth.Admin.EntityFramework.PostgreSQL", "src\CodeChallenge.Auth\src\CodeChallenge.Auth.Admin.EntityFramework.PostgreSQL\CodeChallenge.Auth.Admin.EntityFramework.PostgreSQL.csproj", "{A57D356D-8C19-4240-B32D-71008BDC89B4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CodeChallenge.Auth.Admin.EntityFramework.SqlServer", "src\CodeChallenge.Auth\src\CodeChallenge.Auth.Admin.EntityFramework.SqlServer\CodeChallenge.Auth.Admin.EntityFramework.SqlServer.csproj", "{242D8B90-5336-4D4C-8173-EAF201731A11}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CodeChallenge.Auth.Admin.EntityFramework.SqlServer", "src\CodeChallenge.Auth\src\CodeChallenge.Auth.Admin.EntityFramework.SqlServer\CodeChallenge.Auth.Admin.EntityFramework.SqlServer.csproj", "{242D8B90-5336-4D4C-8173-EAF201731A11}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CodeChallenge.Auth.Shared", "src\CodeChallenge.Auth\src\CodeChallenge.Auth.Shared\CodeChallenge.Auth.Shared.csproj", "{AC49EDB4-9AC8-4D08-8391-5E19B9D92786}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CodeChallenge.Auth.Shared", "src\CodeChallenge.Auth\src\CodeChallenge.Auth.Shared\CodeChallenge.Auth.Shared.csproj", "{AC49EDB4-9AC8-4D08-8391-5E19B9D92786}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CodeChallenge.Chatroom.Bot.StockMarket", "src\CodeChallenge.Chatroom\CodeChallenge.Chatroom.Bot.StockMarket\CodeChallenge.Chatroom.Bot.StockMarket.csproj", "{004E86B1-AEFE-4257-BAD6-74AFC6387F13}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -57,12 +57,6 @@ Global
 		{114D0A8C-5646-4B50-824D-FB20E19E7694}.NoVariablesDefault|Any CPU.Build.0 = Release|Any CPU
 		{114D0A8C-5646-4B50-824D-FB20E19E7694}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{114D0A8C-5646-4B50-824D-FB20E19E7694}.Release|Any CPU.Build.0 = Release|Any CPU
-		{D84B4C5F-990B-4E18-BA89-B638E4661E49}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{D84B4C5F-990B-4E18-BA89-B638E4661E49}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{D84B4C5F-990B-4E18-BA89-B638E4661E49}.NoVariablesDefault|Any CPU.ActiveCfg = Release|Any CPU
-		{D84B4C5F-990B-4E18-BA89-B638E4661E49}.NoVariablesDefault|Any CPU.Build.0 = Release|Any CPU
-		{D84B4C5F-990B-4E18-BA89-B638E4661E49}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{D84B4C5F-990B-4E18-BA89-B638E4661E49}.Release|Any CPU.Build.0 = Release|Any CPU
 		{B709F699-C0B8-48F0-B06D-272BA25FB92B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{B709F699-C0B8-48F0-B06D-272BA25FB92B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B709F699-C0B8-48F0-B06D-272BA25FB92B}.NoVariablesDefault|Any CPU.ActiveCfg = Release|Any CPU
@@ -117,6 +111,12 @@ Global
 		{AC49EDB4-9AC8-4D08-8391-5E19B9D92786}.NoVariablesDefault|Any CPU.Build.0 = Debug|Any CPU
 		{AC49EDB4-9AC8-4D08-8391-5E19B9D92786}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AC49EDB4-9AC8-4D08-8391-5E19B9D92786}.Release|Any CPU.Build.0 = Release|Any CPU
+		{004E86B1-AEFE-4257-BAD6-74AFC6387F13}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{004E86B1-AEFE-4257-BAD6-74AFC6387F13}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{004E86B1-AEFE-4257-BAD6-74AFC6387F13}.NoVariablesDefault|Any CPU.ActiveCfg = Debug|Any CPU
+		{004E86B1-AEFE-4257-BAD6-74AFC6387F13}.NoVariablesDefault|Any CPU.Build.0 = Debug|Any CPU
+		{004E86B1-AEFE-4257-BAD6-74AFC6387F13}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{004E86B1-AEFE-4257-BAD6-74AFC6387F13}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -125,7 +125,6 @@ Global
 		{BAEC37C4-465D-469D-BC4B-88E3AF05A9BA} = {C77997B4-36E6-4EDF-831C-49F36BFE457F}
 		{A33FA6F6-F403-469B-A0A4-08FA9EF85F48} = {BAEC37C4-465D-469D-BC4B-88E3AF05A9BA}
 		{114D0A8C-5646-4B50-824D-FB20E19E7694} = {BAEC37C4-465D-469D-BC4B-88E3AF05A9BA}
-		{D84B4C5F-990B-4E18-BA89-B638E4661E49} = {BAEC37C4-465D-469D-BC4B-88E3AF05A9BA}
 		{B709F699-C0B8-48F0-B06D-272BA25FB92B} = {BAEC37C4-465D-469D-BC4B-88E3AF05A9BA}
 		{243B55D0-5297-4884-927E-50DEE43575D0} = {C77997B4-36E6-4EDF-831C-49F36BFE457F}
 		{D0EAC1B2-06E3-4A51-BE1C-7D0E72DD7A0F} = {243B55D0-5297-4884-927E-50DEE43575D0}
@@ -136,6 +135,7 @@ Global
 		{A57D356D-8C19-4240-B32D-71008BDC89B4} = {243B55D0-5297-4884-927E-50DEE43575D0}
 		{242D8B90-5336-4D4C-8173-EAF201731A11} = {243B55D0-5297-4884-927E-50DEE43575D0}
 		{AC49EDB4-9AC8-4D08-8391-5E19B9D92786} = {243B55D0-5297-4884-927E-50DEE43575D0}
+		{004E86B1-AEFE-4257-BAD6-74AFC6387F13} = {BAEC37C4-465D-469D-BC4B-88E3AF05A9BA}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {77EC0E11-B66D-43EE-A234-CFEB45C0004C}

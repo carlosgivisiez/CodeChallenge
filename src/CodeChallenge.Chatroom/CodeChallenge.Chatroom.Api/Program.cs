@@ -1,5 +1,6 @@
 using CodeChallenge.Chatroom.Api.HostedServices;
 using CodeChallenge.Chatroom.Api.Hubs;
+using CodeChallenge.Chatroom.Bot.StockMarket;
 using CodeChallenge.Chatroom.Core;
 using CodeChallenge.Chatroom.Infra.Data;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
@@ -47,6 +48,7 @@ builder.Services.AddTransient<RoomCreatingService>();
 builder.Services.AddTransient<RoomJoiningService>();
 builder.Services.AddTransient<RoomLeavingService>();
 builder.Services.AddTransient<MessageSendingService>();
+builder.Services.AddTransient<IChatbotService, StockMarketService>();
 
 var app = builder.Build();
 
